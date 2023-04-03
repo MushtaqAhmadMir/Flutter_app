@@ -19,7 +19,7 @@ class Achivement extends StatelessWidget {
           padding: const EdgeInsets.only(left: 6),
           child: Text(
             title,
-            style: TextStyle(fontSize: 18),
+            style: TextStyle(fontSize: 20,fontFamily:'Barlow'),
           ),
         )
       ],

@@ -20,7 +20,8 @@ class ColorBox extends StatelessWidget {
               ? Text(
                   'pallette',
                   style: TextStyle(
-                      fontSize: 14,
+                      fontSize: 16,
+                      fontFamily:'Barlow',
                       fontWeight: FontWeight.bold,
                       color: Colors.white),
                 )

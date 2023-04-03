@@ -21,7 +21,7 @@ class GalleryButton extends StatelessWidget {
             padding: const EdgeInsets.only(top: 8.0),
             child: Text(
               title,
-              style: TextStyle(fontSize: 14, color: Colors.black),
+              style: TextStyle(fontSize: 16,fontFamily:'Barlow', color: Colors.black),
             ),
           ),
           Padding(

@@ -25,8 +25,10 @@ class Task extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // theme: ThemeData(fontFamily: 'BarlowCondensed-Regular'),
         debugShowCheckedModeBanner: false,
         home: Scaffold(
+          
             appBar: EmptyAppBar(),
             body: SingleChildScrollView(
               scrollDirection: Axis.vertical,
@@ -93,7 +95,7 @@ class Task extends StatelessWidget {
                                   Image.asset('lib/app/assets/upload.png'),
                                   Text(
                                     'Upload',
-                                    style: TextStyle(color: Color(0xFF597DDF)),
+                                    style: TextStyle(fontSize:16,fontFamily:'Barlow',color: Color(0xFF597DDF)),
                                   )
                                 ],
                               ),
@@ -109,7 +111,11 @@ class Task extends StatelessWidget {
                                     child: Text(
                                       'john.doe',
                                       style: TextStyle(
-                                          color: Colors.black, fontSize: 36),
+                                          // color: Colors.black,
+                                          fontSize: 37,
+                                          fontFamily:'Barlow',
+                                         
+                                          ),
                                     ),
                                   )
                                 ],
@@ -119,7 +125,7 @@ class Task extends StatelessWidget {
                                   Image.asset('lib/app/assets/edit.png'),
                                   Text(
                                     'Edit',
-                                    style: TextStyle(color: Color(0xFF597DDF)),
+                                    style: TextStyle(fontSize:16, fontFamily:'Barlow',color: Color(0xFF597DDF)),
                                   )
                                 ],
                               ),
@@ -136,7 +142,7 @@ class Task extends StatelessWidget {
                           children: [
                             Text(
                               'My dashboard',
-                              style: TextStyle(fontSize: 14),
+                              style: TextStyle(fontSize: 16,fontFamily:'Barlow',),
                             ),
                             Image.asset('lib/app/assets/switch.png')
                           ],

@@ -17,11 +17,11 @@ class TextComp extends StatelessWidget {
       children: [
         Text(
           title,
-          style: TextStyle(fontSize: 24),
+          style: TextStyle(fontSize: 26,fontFamily:'Barlow'),
         ),
         Text(
           value,
-          style: TextStyle(fontSize: 14),
+          style: TextStyle(fontSize: 16,fontFamily:'Barlow'),
         ),
       ],
     );
